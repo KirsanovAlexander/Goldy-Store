@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Goldy Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__title">
+          <div class="header__location">
+            <img class="header__location_image" src="img/Location.svg" alt="Location" />
+            <p class="header__location_text">Санкт - Петербург</p>
+          </div>
+          <div class="header__phone">
+            <img class="header__phone_image" src="img/Phone.svg" alt="Phone" />
+            <p class="header__phone_text">8 800 785-25-35</p>
+          </div>
+          <div class="header__logo">
+            <div>
+              <p class="header__logo_title">Golden Store</p>
+              <p class="header__logo_text">ювелирный магазин</p>
+            </div>
+          </div>
+          <div class="header__identification">Вход | Регистрация</div>
+          <div class="header__images">
+            <img class="header__image" src="img/Heart.svg" alt="Heart" />
+            <img class="header__image" src="img/statistics.svg" alt="statistics" />
+            <img class="header__image" src="img/Bag.svg" alt="Bag" />
+          </div>
+        </div>
+        <div class="header__menu">
+          <nav class="">
+            <ul class="header__menu_items">
+              <button class=" header__menu_item active">
+                Каталог
+              </button>
+              <button class=" header__menu_item ">
+                Акции
+              </button>
+              <button class=" header__menu_item">
+                Бренды
+              </button>
+              <button class=" header__menu_item">
+                Магазины
+              </button>
+              <button class=" header__menu_item">
+                О нас
+              </button>
+              <button class=" header__menu_item">
+                Доставка и оплата
+              </button>
+              <button class=" header__menu_item">
+                Статьи
+              </button>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <img class="header__search_image" src="img/Search.svg" alt="Search" />
+            <!-- <input class="header__search_text">Поиск по сайту</input> -->
+            <input class="header__search_text" type="text" placeholder="Поиск по сайту" required>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- <section class="advertisement">
+      <div class="advertisement__container">
+        <div class="advertisement__container_textBlock">
+          <div class="advertisement__text">Суперскидка до 60%</div>
+          <div class="advertisement__title">НА БРИЛЛИАНТЫ</div>
+          <button class="advertisement__button">Подробнее</button>
+        </div>
+        <img class="advertisement__image" src="img/Advertisement__ring.png" alt="Advertisement__ring" />
+      </div>
+    </section> -->
+    <section class="advertisement">
+      <div class="row">
+        <div class="col">
+          <div class="owl-carousel owl-theme works-carousel">
+              <div class="item">
+                <div class="advertisement__container">
+                <div class="advertisement__container_textBlock">
+                  <div class="advertisement__text">Суперскидка до 60%</div>
+                  <div class="advertisement__title">НА БРИЛЛИАНТЫ</div>
+                  <button class="advertisement__button">Подробнее</button>
+                </div>
+                <img class="advertisement__image" src="img/Advertisement__ring.png" alt="Advertisement__ring" />
+              </div>  
+              </div>
+               <div class="item">
+                <div class="advertisement__container">
+                <div class="advertisement__container_textBlock">
+                  <div class="advertisement__text">Суперскидка до 60%</div>
+                  <div class="advertisement__title">НА БРИЛЛИАНТЫ</div>
+                  <button class="advertisement__button">Подробнее</button>
+                </div>
+                <img class="advertisement__image" src="img/Advertisement__ring1.png" alt="Advertisement__ring" />
+                </div>
+              </div>
+              <div class="item">
+                <div class="advertisement__container">
+                <div class="advertisement__container_textBlock">
+                  <div class="advertisement__text">Суперскидка до 60%</div>
+                  <div class="advertisement__title">НА БРИЛЛИАНТЫ</div>
+                  <button class="advertisement__button">Подробнее</button>
+                </div>
+                <img class="advertisement__image" src="img/Advertisement__ring2.png" alt="Advertisement__ring" />
+                </div>
+              </div>
+               <div class="item">
+                <div class="advertisement__container">
+                <div class="advertisement__container_textBlock">
+                  <div class="advertisement__text">Суперскидка до 60%</div>
+                  <div class="advertisement__title">НА БРИЛЛИАНТЫ</div>
+                  <button class="advertisement__button">Подробнее</button>
+                </div>
+                <img class="advertisement__image" src="img/Advertisement__ring3.png" alt="Advertisement__ring" />
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="categories">
+      <div class="categories__container">
+        <div class="categories__container_title">Популярные категории</div>
+        <div class="categories__container_cards">
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg1" src="img/Categories__image1.png" alt="Кольца" />
+              <div id="myModal1" class="modal1">
+                <span class="close">×</span>
+                <img class="modal-content" id="img01">
+                <div id="caption">Кольца</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Кольца</div>
+          </div>
+
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg2" src="img/Categories__image2.png" alt="Серьги" />
+              <div id="myModal2" class="modal2">
+                <span class="close2">×</span>
+                <img class="modal-content" id="img02">
+                <div id="caption">Серьги</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Серьги</div>
+          </div>
+
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg3" src="img/Categories__image3.png" alt="Categories__image1" />
+              <div id="myModal3" class="modal3">
+                <span class="close3">×</span>
+                <img class="modal-content" id="img03">
+                <div id="caption">Помолвочные кольца</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Помолвочные кольца</div>
+          </div>
+
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg4" src="img/Categories__image4.png" alt="Categories__image1" />
+              <div id="myModal4" class="modal4">
+                <span class="close4">×</span>
+                <img class="modal-content" id="img04">
+                <div id="caption">Браслеты</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Браслеты</div>
+          </div>
+
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg5" src="img/Categories__image5.png" alt="Categories__image1" />
+              <div id="myModal5" class="modal5">
+                <span class="close5">×</span>
+                <img class="modal-content" id="img05">
+                <div id="caption">Колье и подвески</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Колье и подвески</div>
+          </div>
+
+          <div class="categories__card">
+            <div class="categories__card_image">
+              <img id="myImg6" src="img/Categories__image6.png" alt="Categories__image1" />
+              <div id="myModal6" class="modal6">
+                <span class="close6">×</span>
+                <img class="modal-content" id="img06">
+                <div id="caption">Часы</div>
+              </div>
+            </div>
+            <div class="categories__card_title">Часы</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale">
+      <div class="sale__container">
+        <div class="sale__title">
+          Распродажа
+        </div>
+        <div class="sale__menu">
+          <button class="sale__menu_buttonActive sale__menu_button">Кольца</button>
+          <button class=" sale__menu_button">Серьги</button>
+          <button class=" sale__menu_button">Браслеты</button>
+          <button class=" sale__menu_button">Часы</button>
+        </div>
+        <div class="sale__cards">
+          <div class="sale__card">
+            <div class="sale__card_button">
+              <button class="card__button_sale">
+                Sale
+              </button>
+              <img class="card__button_heart" src="img/Heart2.svg" alt="Heart">
+            </div>
+            <img class="card__button_eyes" src="img/Eyes.svg" alt="Eyes">
+            <div class="sale__card_image">
+              <img src="img/SaleImage1.png" alt="SaleImage1">
+            </div>
+            <div class="sale__card_price">
+              <div class="sale__card_currentPrice">
+                41 000 ₽
+              </div>
+              <div class="sale__card_lastPrice">
+                65 000 ₽
+              </div>
+              <button class="sale__card_discount">
+                -45%
+              </button>
+            </div>
+
+            <div class="sale__card_text">
+              Стильное кольцо из белого золота c бриллиантами
+            </div>
+          </div>
+
+          <div class="sale__card">
+            <div class="sale__card_button">
+              <button class="card__button_sale">
+                Sale
+              </button>
+              <img class="card__button_heart" src="img/Heart2.svg" alt="Heart">
+            </div>
+            <img class="card__button_eyes" src="img/Eyes.svg" alt="Eyes">
+            <div class="sale__card_image">
+              <img src="img/SaleImage2.png" alt="SaleImage1">
+            </div>
+            <div class="sale__card_price">
+              <div class="sale__card_currentPrice">
+                56 000 ₽
+              </div>
+              <div class="sale__card_lastPrice">
+
+              </div>
+              <button class="sale__card_discount hidden">
+
+              </button>
+            </div>
+
+            <div class="sale__card_text">
+              Стильное кольцо из белого золота c бриллиантами
+            </div>
+          </div>
+
+          <div class="sale__card">
+            <div class="sale__card_button">
+              <button class="card__button_sale">
+                Sale
+              </button>
+              <img class="card__button_heart" src="img/Heart2.svg" alt="Heart">
+            </div>
+            <img class="card__button_eyes" src="img/Eyes.svg" alt="Eyes">
+            <div class="sale__card_image">
+              <img src="img/SaleImage3.png" alt="SaleImage1">
+            </div>
+            <div class="sale__card_price">
+              <div class="sale__card_currentPrice">
+                37 500 ₽
+              </div>
+              <div class="sale__card_lastPrice">
+
+              </div>
+              <button class="sale__card_discount hidden">
+
+              </button>
+            </div>
+
+            <div class="sale__card_text">
+              Стильное кольцо из белого золота c бриллиантами
+            </div>
+          </div>
+
+          <div class="sale__card">
+            <div class="sale__card_button">
+              <button class="card__button_sale">
+                Sale
+              </button>
+              <img class="card__button_heart" src="img/Heart2.svg" alt="Heart">
+            </div>
+            <img class="card__button_eyes" src="img/Eyes.svg" alt="Eyes">
+            <div class="sale__card_image">
+              <img src="img/SaleImage4.png" alt="SaleImage1">
+            </div>
+            <div class="sale__card_price">
+              <div class="sale__card_currentPrice">
+                39 200 ₽
+              </div>
+              <div class="sale__card_lastPrice">
+
+              </div>
+              <button class="sale__card_discount hidden">
+
+              </button>
+            </div>
+
+            <div class="sale__card_text">
+              Стильное кольцо из белого золота c бриллиантами
+            </div>
+          </div>
+    </section>
+
+    <section class="offers">
+      <div class="offers__container">
+        <div class="offers__card">
+          <div class="offers__card_text">
+            <div class="offers__card_title">
+              Скидки
+              на все украшения с бриллиантами
+            </div>
+            <button class="offers__card_buttonSaleGreen">
+              До -50%
+            </button>
+          </div>
+          <img src="img/OffersImage1.png" alt="OffersImage1">
+        </div>
+
+        <div class="offers__card">
+          <div class="offers__card_text">
+            <div class="offers__card_title">
+              Скидки
+              на кольца
+              и браслеты
+            </div>
+            <button class="offers__card_buttonSaleRed">
+              До -40%
+            </button>
+          </div>
+          <img src="img/OffersImage2.png" alt="OffersImage2">
+        </div>
+
+        <div class="offers__card">
+          <div class="offers__card_text">
+            <div class="offers__card_title">
+              снижение цен на обручальные кольца
+            </div>
+            <button class="offers__card_buttonSaleYellow">
+              До -60%
+            </button>
+          </div>
+          <img src="img/OffersImage3.png" alt="OffersImage3">
+        </div>
+      </div>
+    </section>
+
+    <section class="product">
+      <div class="product__title">
+        Товар дня
+      </div>
+      <div class="product__container">
+        <div class="product__container_image">
+          <div class="product__button">
+            <button class="button__new">New</button>
+            <button class="button__hit">Хит</button>
+            <button class="button__sale">Sale</button>
+          </div>
+          <img src="img/ProductImage (2).png" alt="ProductImage">
+        </div>
+        <div class="product__description">
+          <div class="product__description_mark">
+            <div class="product__description_star">
+              <img class="product__star" src="img/ProductStar.svg" alt="ProductStar">
+              <img class="product__star" src="img/ProductStar.svg" alt="ProductStar">
+              <img class="product__star" src="img/ProductStar.svg" alt="ProductStar">
+              <img class="product__star" src="img/ProductStar.svg" alt="ProductStar">
+              <img class="product__star" src="img/ProductStar.svg" alt="ProductStar">
+            </div>
+            <div class="product__description_number">
+              4,2
+            </div>
+          </div>
+          <div class="product__description_title">
+            Кольцо из золота с бриллиантами
+          </div>
+          <div class="product__description_articleNumber">
+            Артикул: 1012076
+          </div>
+          <div class="product__description_price">
+            <div class="product__description_currentPrice">
+              22 000 ₽
+            </div>
+            <div class="product__description_lastPrice">
+              22 000 ₽
+            </div>
+            <button class="product__description_discount">
+              -45%
+            </button>
+          </div>
+          <div class="product__description_color">
+            цвет
+          </div>
+          <div class="product__description_colorCircle">
+            <button class="circle__gray circle"></button>
+            <button class="circle__yellow circle"></button>
+            <button class="circle__orange circle"></button>
+          </div>
+          <div class="product__description_size">
+            Размер ?
+          </div>
+          <div class="product__description_buttonSize">
+            <button class="button__size_active buttonSize">16,5</button>
+            <button class=" buttonSize">17,5</button>
+            <button class=" buttonSize">18,5</button>
+            <button class=" buttonSize">19</button>
+            <button class=" buttonSize">19,5</button>
+            <button class=" buttonSize">19,5</button>
+            <button class=" buttonSize">18,5</button>
+            <button class=" buttonSize">19</button>
+            <button class="button__size_none ">19,5</button>
+            <button class="button__size_none ">19,5</button>
+          </div>
+          <div class="product__description_footer">
+            <div class="product__description_footerButton">
+              <button class="description__basket">в корзину</button>
+              <button class="description__buy">купить в 1 клик</button>
+            </div>
+            <div class="product__description_footerImage">
+              <div class="descroption__save">
+                <svg id="save1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="heart2 " id="heart2"
+                    d="M2 8.40001C1.99975 6.95035 2.58239 5.56146 3.61681 4.54584C4.65124 3.53022 6.05058 2.97317 7.5 3.00001C9.21732 2.99089 10.856 3.71919 12 5.00001C13.144 3.71919 14.7827 2.99089 16.5 3.00001C17.9494 2.97317 19.3488 3.53022 20.3832 4.54584C21.4176 5.56146 22.0002 6.95035 22 8.40001C22 13.756 15.621 17.8 12 21C8.387 17.773 2 13.76 2 8.40001Z"
+                    fill="#C9C9C9" />
+                </svg>
+                <button class="descroption__save_text" id="save">
+                  Сохранить
+                  </и>
+              </div>
+              <div class="descroption__compare">
+                <button><img src="img/statistics.svg" alt="statistics"></button>
+                <div class="descroption__compare_text">
+                  Сравнить
+                </div>
+              </div>
+              <div class="descroption__share">
+                <button><img src="img/Share.svg" alt="Share"></button>
+                <div class="descroption__share_text">
+                  Поделиться
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="articles__title">
+        Статьи
+      </div>
+      <div class="articles__container">
+        <div class="articles__card">
+          <img src="img/ArticlesImage1.png" alt="ArticlesImage1">
+          <div class="articles__card_date">
+            21 сентября 2021
+          </div>
+          <div class="articles__card_title">
+            Обручальные кольца: тренды 2021
+          </div>
+        </div>
+
+        <div class="articles__card">
+          <img src="img/ArticlesImage2.png" alt="ArticlesImage2">
+          <div class="articles__card_date">
+            25 сентября 2021
+          </div>
+          <div class="articles__card_title">
+            Главные ювелирные тренды года
+          </div>
+        </div>
+
+        <div class="articles__card">
+          <img src="img/ArticlesImage3.png" alt="ArticlesImage3">
+          <div class="articles__card_date">
+            21 сентября 2021
+          </div>
+          <div class="articles__card_title">
+            Жемчуг: 7 малоизвестных фактов о культовом украшении
+          </div>
+        </div>
+
+        <div class="articles__card">
+          <img src="img/ArticlesImage4.png" alt="ArticlesImage4">
+          <div class="articles__card_date">
+            21 сентября 2021
+          </div>
+          <div class="articles__card_title">
+            Как отличить золото от подделки: 10 практических советов
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
